@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+body{
+    background-color: rgb(60, 66, 64);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    /* background-color: silver; */
+}
+
+.label, .input, .boton{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    border: none;
+}
+.boton{
+    font-size: 12px;
+    color: silver;
+    font-weight: 700;
+    background-color: rgb(119, 45, 45);
+    
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 52, 52);
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.label{
+    color:rgb(231, 231, 243);
+    font-weight: 900;
+    font-size: 2em;
+    font-size:20px;  
+    /* text-shadow:5px 5px 5px rgb(52, 52, 95); */
+
+}
+.input, .boton{
+    border-radius: 20px;
+    padding: 0px 50px;
+
+}
+.github{
+    background-color: rgb(179, 52, 52);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    font-size: 15px;
+    text-shadow:3px 3px 2px rgba(161, 157, 157, 0.989);
+    letter-spacing: 0px;
+    font-weight: 700;
+}
+
+#photo{
+    border-radius: 50%;
+    padding: 20px;
+    width: 350px;
+
+}
+#nombre{
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em; 
+    color: white;
+}
+#link{
+    color: orangered;
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-decoration-line:none;
+    -moz-text-decoration-line:none;
+    font-size: 20px;
+}
